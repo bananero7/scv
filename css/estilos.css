@@ -1,0 +1,147 @@
+
+body{
+    background-image: url(../images/bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: sans-serif;
+  }
+  
+  th {
+  
+    font-size: 16px;
+    background: rgba(51, 50, 50, 0.808);
+    color: #FFF;
+    padding: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    }
+    
+  td {
+  
+    font-size: 16px;
+    padding: 5px;
+    border: 1px solid #DDD;
+    border-radius: 3px;
+  }
+  
+  main{
+    margin-top: 20px;
+  }
+
+/*    Estilo login    */
+  
+.contenedor_todo {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 15px;
+    backdrop-filter: blur( 2px);
+    background-color: rgba(0, 0, 0, 0.425);
+    display: flex;
+}
+
+.contenedor_login {
+    padding: 20px 20px;
+    margin: auto;
+    margin-top: 40px;
+    border: none;
+}
+
+.contenedor_login form h2{
+    font-size: 25px;
+    color:aliceblue;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.651);
+    text-align: center;
+}
+.contenedor_login form input {
+    width: 90%;
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+  
+.contenedor_login form button {
+  padding: 10px 10px;
+  margin-top: 40px;
+  border-radius: 10px;
+  font-size: 16px;
+  background: #1b84daa2;
+  color: white;
+}
+
+/*    Fin Estilo login    */
+
+/*  Estilos de Formularios  */
+
+#registro{
+  width: 100%;
+  margin: auto;
+  table-layout: fixed;
+}
+#registro input{
+  width: 90%;
+  border-radius: 6px;
+  padding: 2px;
+}
+
+.contenedor_registro{
+  display: flex;
+  margin: auto;
+  margin-top: 40px;
+  width: 40%;
+  padding: 25px 25px;
+  backdrop-filter: blur( 2px);
+  background-color: rgba(0, 0, 0, 0.425);
+  border-radius: 20px;
+  overflow-x: auto;
+  table-layout: fixed;
+}
+
+.contenedor_tabla_datos{
+  margin: auto;
+  margin-top: 100px;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  padding: 20px 20px;
+  backdrop-filter: blur( 8px);
+  background-color: rgba(26, 24, 24, 0.705);
+  border-radius: 20px;
+  overflow-x: auto;
+}
+
+#tabla_datos {
+  width: 100%;
+  font-size: 22px;
+  color:#DDD;
+}  
+
+#botonera{
+  margin-top: 20px;
+}
+
+/*  Fin Estilos de Formularios  */
+
+/*  Inicio Estilos de Menu  */
+
+.menu_principal{
+  width: 100%;
+  table-layout: fixed;
+  position: grid;
+}
+
+.contenedor_menu{
+  display: flex;
+  margin: auto;
+  margin-top: 40px;
+  width: 40%;
+  padding: 25px 25px;
+  backdrop-filter: blur( 2px);
+  background-color: rgba(0, 0, 0, 0.425);
+  border-radius: 20px;
+  overflow-x: auto;
+  table-layout: fixed;
+}
